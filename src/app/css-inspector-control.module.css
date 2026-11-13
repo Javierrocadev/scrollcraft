@@ -1,0 +1,94 @@
+.inspector {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  min-width: 0;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 11px;
+  line-height: 1.3;
+}
+
+.compatBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--toolcraft-custom-viz-border);
+  background: var(--toolcraft-custom-viz-fill-dim);
+  color: var(--foreground);
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.compatDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 999px;
+  background: var(--toolcraft-custom-viz-data);
+}
+
+.statusBadge {
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--toolcraft-custom-viz-fill-dim);
+  color: var(--foreground);
+  font-weight: 600;
+  font-size: 11px;
+}
+
+.metaRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 11px;
+  color: var(--muted-foreground);
+}
+
+.metaChip {
+  padding: 2px 6px;
+  border-radius: 4px;
+  background: var(--toolcraft-custom-viz-surface);
+}
+
+.codeBlock {
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--toolcraft-custom-viz-border);
+  background: var(--toolcraft-custom-viz-surface);
+  color: var(--foreground);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 12px;
+  line-height: 1.65;
+  white-space: pre;
+  overflow: auto;
+  max-height: 260px;
+  user-select: text;
+}
+
+.compatNote {
+  font-size: 11px;
+  line-height: 1.5;
+  color: var(--muted-foreground);
+}
+
+@media (forced-colors: active) {
+  .codeBlock,
+  .compatBadge,
+  .statusBadge,
+  .metaChip {
+    color: CanvasText;
+    background: Canvas;
+    border-color: CanvasText;
+  }
+}

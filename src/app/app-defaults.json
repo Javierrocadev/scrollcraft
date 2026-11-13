@@ -1,0 +1,95 @@
+{
+  "version": 2,
+  "appId": "scrollcraft",
+  "state": {
+    "values": {
+      "export.includeBackground": true,
+      "appearance.background": "#EDEDED",
+      "canvas.workspaceBackground": "dots",
+      "canvas.aspectRatio": {
+        "height": 9,
+        "mode": "preset",
+        "value": "16:9",
+        "width": 16
+      },
+      "canvas.size.width": 1280,
+      "canvas.size.height": 720,
+      "canvas.renderScale": 2,
+      "timeline.type": "scroll",
+      "timeline.axis": "block",
+      "timeline.rangeStart.name": "entry",
+      "timeline.rangeEnd.name": "contain",
+      "timeline.rangeStart.offset": 23,
+      "timeline.rangeEnd.offset": 65,
+      "effect.preset": "parallax",
+      "effect.easing": "cubic-bezier",
+      "effect.intensity": 79,
+      "preview.deviceMockup": "browser",
+      "preview.showHud": false,
+      "preview.exportHud": false,
+      "css.rangeSyntax": "shorthand",
+      "css.includeSupports": true,
+      "css.inspector": "copied",
+      "export.image.format": "png",
+      "export.image.resolution": "4k",
+      "export.video.format": "mp4",
+      "export.video.resolution": "current"
+    },
+    "canvas": {
+      "offset": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "height": 720,
+        "unit": "px",
+        "width": 1280
+      },
+      "zoom": 100,
+      "mode": "finite"
+    },
+    "panels": {
+      "controls": {
+        "collapsedSections": {},
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "scrollTop": 0
+      },
+      "layers": {
+        "offset": {
+          "x": 0,
+          "y": 0
+        }
+      },
+      "timeline": {
+        "offset": {
+          "x": 0,
+          "y": 0
+        },
+        "extended": true
+      },
+      "toolbar": {
+        "offset": {
+          "x": 0,
+          "y": 0
+        }
+      }
+    },
+    "timeline": {
+      "currentTimeSeconds": 2.2636000000119183,
+      "durationSeconds": 4,
+      "expanded": false,
+      "isLooping": true,
+      "isPlaying": true,
+      "selectedKeyframeId": null,
+      "keyframeGroups": []
+    },
+    "layers": [],
+    "selectedLayerId": null,
+    "mediaAssets": []
+  },
+  "resources": [],
+  "theme": "dark"
+}

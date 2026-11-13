@@ -1,0 +1,53 @@
+{
+  "appId": "scrollcraft",
+  "attachments": [],
+  "canvas": {
+    "aspectRatio": {
+      "height": 9,
+      "mode": "preset",
+      "value": "16:9",
+      "width": 16
+    },
+    "mode": "finite",
+    "size": {
+      "height": 720,
+      "unit": "px",
+      "width": 1280
+    }
+  },
+  "exportedAt": "2026-11-12T23:12:42.148Z",
+  "source": "toolcraft-settings",
+  "timeline": {
+    "currentTimeSeconds": 0.7800004613681102,
+    "durationSeconds": 4,
+    "expanded": false,
+    "isLooping": true,
+    "isPlaying": false
+  },
+  "values": {
+    "export.includeBackground": true,
+    "appearance.background": "#0B1020",
+    "canvas.workspaceBackground": "dots",
+    "canvas.renderScale": 2,
+    "timeline.type": "view",
+    "timeline.axis": "block",
+    "timeline.rangeStart.name": "entry",
+    "timeline.rangeEnd.name": "cover",
+    "timeline.rangeStart.offset": 0,
+    "timeline.rangeEnd.offset": 40,
+    "effect.preset": "card-3d",
+    "effect.easing": "ease-out",
+    "effect.intensity": 85,
+    "preview.deviceMockup": "browser",
+    "preview.showHud": true,
+    "preview.exportHud": true,
+    "css.rangeSyntax": "shorthand",
+    "css.includeSupports": false,
+    "css.inspector": "ready",
+    "export.image.format": "png",
+    "export.image.resolution": "2k",
+    "export.video.format": "mp4",
+    "export.video.resolution": "current"
+  },
+  "version": 3
+}

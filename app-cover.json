@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "title": "Scrollcraft",
+  "asset": "public/toolcraft/cover.png",
+  "generation": {
+    "kind": "app-composition",
+    "source": "src/app/app-composition.tsx",
+    "state": "app-cover-state.json",
+    "description": "Actual app 2K (2048x1152, 16:9) PNG export of the default 3D Card Reveal preset (view(block), entry 0% to cover 40%, ease-out, intensity 85, browser frame) with Export HUD enabled at held frame t = 0.78s (normalized 0.195 of the 4.0s loop); no editor UI."
+  }
+}
